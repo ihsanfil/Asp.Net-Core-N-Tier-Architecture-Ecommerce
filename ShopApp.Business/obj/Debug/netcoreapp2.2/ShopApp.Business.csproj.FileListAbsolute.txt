@@ -1,0 +1,28 @@
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Business.deps.json
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Business.dll
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Business.pdb
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.dll
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Entities.dll
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.pdb
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Entities.pdb
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csprojAssemblyReference.cache
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.AssemblyInfoInputs.cache
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.AssemblyInfo.cs
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csproj.CopyComplete
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.dll
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.pdb
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Business.deps.json
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Business.dll
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Business.pdb
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.dll
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Entities.dll
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.pdb
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Entities.pdb
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csprojAssemblyReference.cache
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.AssemblyInfoInputs.cache
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.AssemblyInfo.cs
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csproj.CopyComplete
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.dll
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.pdb

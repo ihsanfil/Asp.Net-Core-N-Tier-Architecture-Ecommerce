@@ -1,0 +1,28 @@
+﻿<html xmlns="http://www.w3.org/1999/xhtml" lang="tr">
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="/modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdn.usebootstrap.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="/modules/bootstrap/dist/css/bootstrap.min.css" />
+    <link href="~/css/style.css" rel="stylesheet" />
+    <title>ShopApp</title>
+</head>
+<body>
+    <partial name="_navbar" />
+
+    <div class="container pt-100 mb-5">
+        @if (TempData["message"] != null)
+        {
+            <partial name="_resultmessage" model="@(TempData.Get<ResultMessage>("message"))"/>
+        }
+
+
+        @RenderBody()
+    </div>
+
+    <script src="/modules/bootstrap/dist/js/jquery-3.5.1.slim.min.js"></script>
+    <script src="/modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    @RenderSection("Scripts", false)
+</body>
+</html>

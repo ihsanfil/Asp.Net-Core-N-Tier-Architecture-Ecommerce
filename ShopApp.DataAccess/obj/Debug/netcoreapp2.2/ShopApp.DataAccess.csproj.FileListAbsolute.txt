@@ -1,0 +1,30 @@
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.deps.json
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.runtimeconfig.json
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.runtimeconfig.dev.json
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.dll
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.pdb
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.Entities.dll
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.Entities.pdb
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.AssemblyInfo.cs
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.csproj.CopyComplete
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.dll
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.pdb
+C:\Users\MSİ\Desktop\coreLearn\Katmanli-Mimari-ETicaret-Core-Mvc-master\Katmanli-Mimari-ETicaret-Core-Mvc-master\src\2-ShopApp\11-StaticFiles Middleware\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.genruntimeconfig.cache
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.deps.json
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.runtimeconfig.json
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.runtimeconfig.dev.json
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.dll
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.pdb
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.Entities.dll
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\bin\Debug\netcoreapp2.2\ShopApp.Entities.pdb
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.csprojAssemblyReference.cache
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.AssemblyInfoInputs.cache
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.AssemblyInfo.cs
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.csproj.CopyComplete
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.dll
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.pdb
+C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.DataAccess\obj\Debug\netcoreapp2.2\ShopApp.DataAccess.genruntimeconfig.cache
