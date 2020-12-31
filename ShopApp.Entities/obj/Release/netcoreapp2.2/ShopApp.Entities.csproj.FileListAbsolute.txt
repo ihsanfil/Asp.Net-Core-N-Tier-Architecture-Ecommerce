@@ -1,0 +1,9 @@
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Entities\bin\Release\netcoreapp2.2\ShopApp.Entities.deps.json
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Entities\bin\Release\netcoreapp2.2\ShopApp.Entities.dll
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Entities\bin\Release\netcoreapp2.2\ShopApp.Entities.pdb
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Entities\obj\Release\netcoreapp2.2\ShopApp.Entities.csprojAssemblyReference.cache
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Entities\obj\Release\netcoreapp2.2\ShopApp.Entities.AssemblyInfoInputs.cache
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Entities\obj\Release\netcoreapp2.2\ShopApp.Entities.AssemblyInfo.cs
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Entities\obj\Release\netcoreapp2.2\ShopApp.Entities.csproj.CoreCompileInputs.cache
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Entities\obj\Release\netcoreapp2.2\ShopApp.Entities.dll
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Entities\obj\Release\netcoreapp2.2\ShopApp.Entities.pdb

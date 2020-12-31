@@ -26,3 +26,17 @@ C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2
 C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csproj.CopyComplete
 C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.dll
 C:\Users\MSİ\Desktop\coreLearn\ShopApp\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.pdb
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Business.deps.json
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Business.dll
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Business.pdb
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.dll
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Entities.dll
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.DataAccess.pdb
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\bin\Debug\netcoreapp2.2\ShopApp.Entities.pdb
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csprojAssemblyReference.cache
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.AssemblyInfoInputs.cache
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.AssemblyInfo.cs
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csproj.CoreCompileInputs.cache
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.csproj.CopyComplete
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.dll
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.Business\obj\Debug\netcoreapp2.2\ShopApp.Business.pdb
