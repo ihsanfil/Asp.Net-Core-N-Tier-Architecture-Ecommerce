@@ -1,0 +1,1909 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Admin - Dashboard </title>
+    <!-- Favicon icon -->
+    <link rel="icon" type="image/png" sizes="16x16" href="~/Assets/images/favicon.png">
+    <link href="~/Assets/vendor/jqvmap/css/jqvmap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="~/Assets/vendor/chartist/css/chartist.min.css">
+    <link href="~/Assets/vendor/bootstrap-select/dist/css/bootstrap-select.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
+    <link href="~/Assets/css/style.css" rel="stylesheet" />
+    <link href="../2.0/LineIcons.css" rel="stylesheet">
+
+</head>
+<body>
+
+    <!--*******************
+        Preloader start
+    ********************-->
+    <div id="preloader">
+        <div class="sk-three-bounce">
+            <div class="sk-child sk-bounce1"></div>
+            <div class="sk-child sk-bounce2"></div>
+            <div class="sk-child sk-bounce3"></div>
+        </div>
+    </div>
+    <!--*******************
+        Preloader end
+    ********************-->
+    <!--**********************************
+        Main wrapper start
+    ***********************************-->
+    <div id="main-wrapper">
+
+        <!--**********************************
+            Nav header start
+        ***********************************-->
+        <div class="nav-header">
+            <a href="index.html" class="brand-logo">
+                <img class="logo-abbr" src="images/logo-white.png" alt="">
+                <img class="logo-compact" src="images/logo-text.png" alt="">
+                <img class="brand-title" src="images/logo-text.png" alt="">
+            </a>
+
+            <div class="nav-control">
+                <div class="hamburger">
+                    <span class="line"></span><span class="line"></span><span class="line"></span>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Nav header end
+        ***********************************-->
+        <!--**********************************
+            Chat box start
+        ***********************************-->
+        <div class="chatbox">
+            <div class="chatbox-close"></div>
+            <div class="custom-tab-1">
+                <ul class="nav nav-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#notes">Notes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#alerts">Alerts</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#chat">Chat</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active show" id="chat" role="tabpanel">
+                        <div class="card mb-sm-3 mb-md-0 contacts_card dz-chat-user-box">
+                            <div class="card-header chat-list-header text-center">
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"></rect><rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"></rect></g></svg></a>
+                                <div>
+                                    <h6 class="mb-1">Chat List</h6>
+                                    <p class="mb-0">Show All</p>
+                                </div>
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></a>
+                            </div>
+                            <div class="card-body contacts_body p-0 dz-scroll  " id="DZ_W_Contacts_Body">
+                                <ul class="contacts">
+                                    <li class="name-first-letter">A</li>
+                                    <li class="active dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Archie Parker</span>
+                                                <p>Kalid is online</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon offline"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Alfie Mason</span>
+                                                <p>Taherah left 7 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>AharlieKane</span>
+                                                <p>Sami is online</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon offline"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Athan Jacoby</span>
+                                                <p>Nargis left 30 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="name-first-letter">B</li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon offline"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Bashid Samim</span>
+                                                <p>Rashid left 50 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Breddie Ronan</span>
+                                                <p>Kalid is online</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon offline"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Ceorge Carson</span>
+                                                <p>Taherah left 7 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="name-first-letter">D</li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Darry Parker</span>
+                                                <p>Sami is online</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon offline"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Denry Hunter</span>
+                                                <p>Nargis left 30 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="name-first-letter">J</li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon offline"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Jack Ronan</span>
+                                                <p>Rashid left 50 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/1.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Jacob Tucker</span>
+                                                <p>Kalid is online</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/2.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon offline"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>James Logan</span>
+                                                <p>Taherah left 7 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/3.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Joshua Weston</span>
+                                                <p>Sami is online</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="name-first-letter">O</li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/4.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon offline"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Oliver Acker</span>
+                                                <p>Nargis left 30 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="dz-chat-user">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont">
+                                                <img src="images/avatar/5.jpg" class="rounded-circle user_img" alt="">
+                                                <span class="online_icon offline"></span>
+                                            </div>
+                                            <div class="user_info">
+                                                <span>Oscar Weston</span>
+                                                <p>Rashid left 50 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="card chat dz-chat-history-box d-none">
+                            <div class="card-header chat-list-header text-center">
+                                <a href="#" class="dz-chat-history-back">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><polygon points="0 0 24 0 24 24 0 24"></polygon><rect fill="#000000" opacity="0.3" transform="translate(15.000000, 12.000000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -12.000000) " x="14" y="7" width="2" height="10" rx="1"></rect><path d="M3.7071045,15.7071045 C3.3165802,16.0976288 2.68341522,16.0976288 2.29289093,15.7071045 C1.90236664,15.3165802 1.90236664,14.6834152 2.29289093,14.2928909 L8.29289093,8.29289093 C8.67146987,7.914312 9.28105631,7.90106637 9.67572234,8.26284357 L15.6757223,13.7628436 C16.0828413,14.136036 16.1103443,14.7686034 15.7371519,15.1757223 C15.3639594,15.5828413 14.7313921,15.6103443 14.3242731,15.2371519 L9.03007346,10.3841355 L3.7071045,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(9.000001, 11.999997) scale(-1, -1) rotate(90.000000) translate(-9.000001, -11.999997) "></path></g></svg>
+                                </a>
+                                <div>
+                                    <h6 class="mb-1">Chat with Khelesh</h6>
+                                    <p class="mb-0 text-success">Online</p>
+                                </div>
+                                <div class="dropdown">
+                                    <a href="#" data-toggle="dropdown" aria-expanded="false"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></a>
+                                    <ul class="dropdown-menu dropdown-menu-right">
+                                        <li class="dropdown-item"><i class="fa fa-user-circle text-primary mr-2"></i> View profile</li>
+                                        <li class="dropdown-item"><i class="fa fa-users text-primary mr-2"></i> Add to close friends</li>
+                                        <li class="dropdown-item"><i class="fa fa-plus text-primary mr-2"></i> Add to group</li>
+                                        <li class="dropdown-item"><i class="fa fa-ban text-primary mr-2"></i> Block</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="card-body msg_card_body dz-scroll" id="DZ_W_Contacts_Body3">
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        Hi, how are you samim?
+                                        <span class="msg_time">8:40 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mb-4">
+                                    <div class="msg_cotainer_send">
+                                        Hi Khalid i am good tnx how about you?
+                                        <span class="msg_time_send">8:55 AM, Today</span>
+                                    </div>
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        I am good too, thank you for your chat template
+                                        <span class="msg_time">9:00 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mb-4">
+                                    <div class="msg_cotainer_send">
+                                        You are welcome
+                                        <span class="msg_time_send">9:05 AM, Today</span>
+                                    </div>
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        I am looking for your next templates
+                                        <span class="msg_time">9:07 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mb-4">
+                                    <div class="msg_cotainer_send">
+                                        Ok, thank you have a good day
+                                        <span class="msg_time_send">9:10 AM, Today</span>
+                                    </div>
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        Bye, see you
+                                        <span class="msg_time">9:12 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        Hi, how are you samim?
+                                        <span class="msg_time">8:40 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mb-4">
+                                    <div class="msg_cotainer_send">
+                                        Hi Khalid i am good tnx how about you?
+                                        <span class="msg_time_send">8:55 AM, Today</span>
+                                    </div>
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        I am good too, thank you for your chat template
+                                        <span class="msg_time">9:00 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mb-4">
+                                    <div class="msg_cotainer_send">
+                                        You are welcome
+                                        <span class="msg_time_send">9:05 AM, Today</span>
+                                    </div>
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        I am looking for your next templates
+                                        <span class="msg_time">9:07 AM, Today</span>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-end mb-4">
+                                    <div class="msg_cotainer_send">
+                                        Ok, thank you have a good day
+                                        <span class="msg_time_send">9:10 AM, Today</span>
+                                    </div>
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/2.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-start mb-4">
+                                    <div class="img_cont_msg">
+                                        <img src="images/avatar/1.jpg" class="rounded-circle user_img_msg" alt="">
+                                    </div>
+                                    <div class="msg_cotainer">
+                                        Bye, see you
+                                        <span class="msg_time">9:12 AM, Today</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="card-footer type_msg">
+                                <div class="input-group">
+                                    <textarea class="form-control" placeholder="Type your message..."></textarea>
+                                    <div class="input-group-append">
+                                        <button type="button" class="btn btn-primary"><i class="fa fa-location-arrow"></i></button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="alerts" role="tabpanel">
+                        <div class="card mb-sm-3 mb-md-0 contacts_card">
+                            <div class="card-header chat-list-header text-center">
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><circle fill="#000000" cx="5" cy="12" r="2"></circle><circle fill="#000000" cx="12" cy="12" r="2"></circle><circle fill="#000000" cx="19" cy="12" r="2"></circle></g></svg></a>
+                                <div>
+                                    <h6 class="mb-1">Notications</h6>
+                                    <p class="mb-0">Show All</p>
+                                </div>
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"></path><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"></path></g></svg></a>
+                            </div>
+                            <div class="card-body contacts_body p-0 dz-scroll" id="DZ_W_Contacts_Body1">
+                                <ul class="contacts">
+                                    <li class="name-first-letter">SEVER STATUS</li>
+                                    <li class="active">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont primary">KK</div>
+                                            <div class="user_info">
+                                                <span>David Nester Birthday</span>
+                                                <p class="text-primary">Today</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="name-first-letter">SOCIAL</li>
+                                    <li>
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont success">RU<i class="icon fa-birthday-cake"></i></div>
+                                            <div class="user_info">
+                                                <span>Perfection Simplified</span>
+                                                <p>Jame Smith commented on your status</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="name-first-letter">SEVER STATUS</li>
+                                    <li>
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont primary">AU<i class="icon fa fa-user-plus"></i></div>
+                                            <div class="user_info">
+                                                <span>AharlieKane</span>
+                                                <p>Sami is online</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex bd-highlight">
+                                            <div class="img_cont info">MO<i class="icon fa fa-user-plus"></i></div>
+                                            <div class="user_info">
+                                                <span>Athan Jacoby</span>
+                                                <p>Nargis left 30 mins ago</p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="card-footer"></div>
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="notes">
+                        <div class="card mb-sm-3 mb-md-0 note_card">
+                            <div class="card-header chat-list-header text-center">
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect fill="#000000" x="4" y="11" width="16" height="2" rx="1"></rect><rect fill="#000000" opacity="0.3" transform="translate(12.000000, 12.000000) rotate(-270.000000) translate(-12.000000, -12.000000) " x="4" y="11" width="16" height="2" rx="1"></rect></g></svg></a>
+                                <div>
+                                    <h6 class="mb-1">Notes</h6>
+                                    <p class="mb-0">Add New Nots</p>
+                                </div>
+                                <a href="#"><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="18px" height="18px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><path d="M14.2928932,16.7071068 C13.9023689,16.3165825 13.9023689,15.6834175 14.2928932,15.2928932 C14.6834175,14.9023689 15.3165825,14.9023689 15.7071068,15.2928932 L19.7071068,19.2928932 C20.0976311,19.6834175 20.0976311,20.3165825 19.7071068,20.7071068 C19.3165825,21.0976311 18.6834175,21.0976311 18.2928932,20.7071068 L14.2928932,16.7071068 Z" fill="#000000" fill-rule="nonzero" opacity="0.3"></path><path d="M11,16 C13.7614237,16 16,13.7614237 16,11 C16,8.23857625 13.7614237,6 11,6 C8.23857625,6 6,8.23857625 6,11 C6,13.7614237 8.23857625,16 11,16 Z M11,18 C7.13400675,18 4,14.8659932 4,11 C4,7.13400675 7.13400675,4 11,4 C14.8659932,4 18,7.13400675 18,11 C18,14.8659932 14.8659932,18 11,18 Z" fill="#000000" fill-rule="nonzero"></path></g></svg></a>
+                            </div>
+                            <div class="card-body contacts_body p-0 dz-scroll" id="DZ_W_Contacts_Body2">
+                                <ul class="contacts">
+                                    <li class="active">
+                                        <div class="d-flex bd-highlight">
+                                            <div class="user_info">
+                                                <span>New order placed..</span>
+                                                <p>10 Aug 2020</p>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <a href="#" class="btn btn-primary btn-xs sharp mr-1"><i class="fa fa-pencil"></i></a>
+                                                <a href="#" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex bd-highlight">
+                                            <div class="user_info">
+                                                <span>Youtube, a video-sharing website..</span>
+                                                <p>10 Aug 2020</p>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <a href="#" class="btn btn-primary btn-xs sharp mr-1"><i class="fa fa-pencil"></i></a>
+                                                <a href="#" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex bd-highlight">
+                                            <div class="user_info">
+                                                <span>john just buy your product..</span>
+                                                <p>10 Aug 2020</p>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <a href="#" class="btn btn-primary btn-xs sharp mr-1"><i class="fa fa-pencil"></i></a>
+                                                <a href="#" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div class="d-flex bd-highlight">
+                                            <div class="user_info">
+                                                <span>Athan Jacoby</span>
+                                                <p>10 Aug 2020</p>
+                                            </div>
+                                            <div class="ml-auto">
+                                                <a href="#" class="btn btn-primary btn-xs sharp mr-1"><i class="fa fa-pencil"></i></a>
+                                                <a href="#" class="btn btn-danger btn-xs sharp"><i class="fa fa-trash"></i></a>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--**********************************
+            Chat box End
+        ***********************************-->
+        <!--**********************************
+            Sidebar Fixed
+        ***********************************-->
+        <div class="fixed-content-box">
+            <div class="head-name">
+                <form>
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                </form>
+                <span class="close-fixed-content fa-left d-lg-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><polygon points="0 0 24 0 24 24 0 24"></polygon><rect fill="#000000" opacity="0.3" transform="translate(15.000000, 12.000000) scale(-1, 1) rotate(-90.000000) translate(-15.000000, -12.000000) " x="14" y="7" width="2" height="10" rx="1"></rect><path d="M3.7071045,15.7071045 C3.3165802,16.0976288 2.68341522,16.0976288 2.29289093,15.7071045 C1.90236664,15.3165802 1.90236664,14.6834152 2.29289093,14.2928909 L8.29289093,8.29289093 C8.67146987,7.914312 9.28105631,7.90106637 9.67572234,8.26284357 L15.6757223,13.7628436 C16.0828413,14.136036 16.1103443,14.7686034 15.7371519,15.1757223 C15.3639594,15.5828413 14.7313921,15.6103443 14.3242731,15.2371519 L9.03007346,10.3841355 L3.7071045,15.7071045 Z" fill="#000000" fill-rule="nonzero" transform="translate(9.000001, 11.999997) scale(-1, -1) rotate(90.000000) translate(-9.000001, -11.999997) "></path></g></svg>
+                </span>
+            </div>
+            <div class="fixed-content-body dz-scroll" id="DZ_W_Fixed_Contant">
+                <div class="tab-content" id="menu">
+                    <!--<div class="tab-pane chart-sidebar fade active show" id="dashboard-area" role="tabpanel"></div>-->
+                    <div class="tab-pane fade active show" id="dashboard" role="tabpanel">
+                        <ul class="metismenu tab-nav-menu">
+                            <li class="nav-label">Content</li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3"></path></g>
+                                    </svg>
+                                    PAGES
+                                </a>
+                                <ul aria-expanded="false" class="cms-dropdown-menu">
+                                    <li><i class="far fa-file"></i><a href="#">ALL PAGES</a></li>
+                                    <li><i class="fas fa-arrows-alt-v"></i><a href="index-2.html">PAGE SORT</a></li>
+                                    <li><i class="fas fa-plus-circle"></i><a href="index-3.html">CREATE PAGE</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3"></path></g>
+                                    </svg>
+                                    PRODUCTS
+                                </a>
+                                <ul aria-expanded="false" class="cms-dropdown-menu">
+
+                                    <li><i class="fas fa-tags"></i><a href="/Admin/ProductList">ALL PRODUCTS</a></li>
+                                    <li><i class="fas fa-arrows-alt-v"></i><a href="index-2.html">PRODUCTS SORT</a></li>
+                                    <li><i class="fas fa-plus-circle"></i><a href="/Admin/CreateProduct">CREATE PRODUCT</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3"></path></g>
+                                    </svg>
+                                    CATEGORIES
+                                </a>
+                                <ul aria-expanded="false" class="cms-dropdown-menu">
+                                    <li><i class="fas fa-boxes"></i><a href="/Admin/CategoryList">ALL CATEGORIES</a></li>
+                                    <li><i class="fas fa-arrows-alt-v"></i><a href="index-2.html">CATEGORIES SORT</a></li>
+                                    <li><i class="fas fa-plus-circle"></i><a href="/Admin/CreateCategory">CREATE CATEGORY</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="tab-pane fade" id="dashboard-area" role="tabpanel">
+                        <ul class="metismenu tab-nav-menu">
+                            <li class="nav-label">Media</li>
+                            <li>
+                                <a class="has-arrow" href="javascript:void()" aria-expanded="false">
+                                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewbox="0 0 24 24" version="1.1">
+                                        <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><rect x="0" y="0" width="24" height="24"></rect><rect fill="#000000" x="4" y="4" width="7" height="7" rx="1.5"></rect><path d="M5.5,13 L9.5,13 C10.3284271,13 11,13.6715729 11,14.5 L11,18.5 C11,19.3284271 10.3284271,20 9.5,20 L5.5,20 C4.67157288,20 4,19.3284271 4,18.5 L4,14.5 C4,13.6715729 4.67157288,13 5.5,13 Z M14.5,4 L18.5,4 C19.3284271,4 20,4.67157288 20,5.5 L20,9.5 C20,10.3284271 19.3284271,11 18.5,11 L14.5,11 C13.6715729,11 13,10.3284271 13,9.5 L13,5.5 C13,4.67157288 13.6715729,4 14.5,4 Z M14.5,13 L18.5,13 C19.3284271,13 20,13.6715729 20,14.5 L20,18.5 C20,19.3284271 19.3284271,20 18.5,20 L14.5,20 C13.6715729,20 13,19.3284271 13,18.5 L13,14.5 C13,13.6715729 13.6715729,13 14.5,13 Z" fill="#000000" opacity="0.3"></path></g>
+                                    </svg>
+                                    Dashboard
+                                </a>
+                                <ul aria-expanded="false" class="cms-dropdown-menu">
+                                    <li><a href="index.html">Light</a></li>
+                                    <li><a href="index-2.html">Dark</a></li>
+                                    <li><a href="index-3.html">Mini Sidebar</a></li>
+                                    <li><a href="index-4.html">Sidebar</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--**********************************
+            Sidebar End
+        ***********************************-->
+        <!--**********************************
+            Header start
+        ***********************************-->
+        <div class="header">
+            <div class="header-content">
+                <nav class="navbar navbar-expand">
+                    <div class="collapse navbar-collapse justify-content-between">
+                        <div class="header-left">
+                            <div class="search_bar dropdown">
+                                <!--<span class="search_icon p-3 c-pointer" data-toggle="dropdown">
+                                    <i class="mdi mdi-magnify"></i>
+                                </span>
+                                <div class="dropdown-menu p-0 m-0">
+                                    <form>
+                                        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                                    </form>
+                                </div>-->
+                            </div>
+                        </div>
+
+                        <ul class="navbar-nav header-right">
+                            <li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link bell dz-fullscreen" href="#">
+                                    <svg id="icon-full" viewbox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><path d="M8 3H5a2 2 0 0 0-2 2v3m18 0V5a2 2 0 0 0-2-2h-3m0 18h3a2 2 0 0 0 2-2v-3M3 16v3a2 2 0 0 0 2 2h3"></path></svg>
+                                    <svg id="icon-minimize" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-minimize"><path d="M8 3v3a2 2 0 0 1-2 2H3m18 0h-3a2 2 0 0 1-2-2V3m0 18v-3a2 2 0 0 1 2-2h3M3 16h3a2 2 0 0 1 2 2v3"></path></svg>
+                                </a>
+                            </li>
+                            <li class="nav-item dropdown notification_dropdown">
+                                <a class="nav-link bell ai-icon" href="#" role="button" data-toggle="dropdown">
+                                    <svg id="icon-user" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell">
+                                        <path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path>
+                                        <path d="M13.73 21a2 2 0 0 1-3.46 0"></path>
+                                    </svg>
+                                    <div class="pulse-css"></div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <div id="DZ_W_Notification1" class="widget-media dz-scroll p-3" style="height:380px;">
+                                        <ul class="timeline">
+                                            <li>
+                                                <div class="timeline-panel">
+                                                    <div class="media mr-2">
+                                                        <img alt="image" width="50" src="images/avatar/1.jpg">
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6 class="mb-1">Dr sultads Send you Photo</h6>
+                                                        <small class="d-block">29 July 2020 - 02:26 PM</small>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="timeline-panel">
+                                                    <div class="media mr-2 media-info">
+                                                        KG
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6 class="mb-1">Resport created successfully</h6>
+                                                        <small class="d-block">29 July 2020 - 02:26 PM</small>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="timeline-panel">
+                                                    <div class="media mr-2 media-success">
+                                                        <i class="fa fa-home"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6 class="mb-1">Reminder : Treatment Time!</h6>
+                                                        <small class="d-block">29 July 2020 - 02:26 PM</small>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="timeline-panel">
+                                                    <div class="media mr-2">
+                                                        <img alt="image" width="50" src="images/avatar/1.jpg">
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6 class="mb-1">Dr sultads Send you Photo</h6>
+                                                        <small class="d-block">29 July 2020 - 02:26 PM</small>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="timeline-panel">
+                                                    <div class="media mr-2 media-danger">
+                                                        KG
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6 class="mb-1">Resport created successfully</h6>
+                                                        <small class="d-block">29 July 2020 - 02:26 PM</small>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                            <li>
+                                                <div class="timeline-panel">
+                                                    <div class="media mr-2 media-primary">
+                                                        <i class="fa fa-home"></i>
+                                                    </div>
+                                                    <div class="media-body">
+                                                        <h6 class="mb-1">Reminder : Treatment Time!</h6>
+                                                        <small class="d-block">29 July 2020 - 02:26 PM</small>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                    <a class="all-notification" href="#">See all notifications <i class="ti-arrow-right"></i></a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown header-profile">
+                                <a class="nav-link" href="#" role="button" data-toggle="dropdown">
+                                    <img src="images/profile/pic1.jpg" width="20" alt="">
+                                    <div class="header-info">
+                                        <style>
+                                            ul.admin-profile {
+                                                line-height: 0px;
+                                                height: 97px;
+                                            }
+
+                                            .admin-profile li {
+                                                display: inline-block;
+                                            }
+                                        </style>
+                                        <ul class="admin-profile">
+                                            @if (User.Identity.IsAuthenticated)
+                                            {
+                                                <li>
+                                                    <a asp-controller="Account" asp-action="Manage" class="nav-link">
+
+                                                        <span>Hey, <strong>@User.Identity.Name</strong></span>
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a asp-controller="Account" asp-action="Logout" class="nav-link">Logout</a>
+                                                </li>
+
+                                            }
+
+                                        </ul>
+
+                                    </div>
+                                </a>
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a href="app-profile.html" class="dropdown-item ai-icon">
+                                        <svg id="icon-user1" xmlns="http://www.w3.org/2000/svg" class="text-primary" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+                                        <span class="ml-2">Profile </span>
+                                    </a>
+                                    <a href="email-inbox.html" class="dropdown-item ai-icon">
+                                        <svg id="icon-inbox" xmlns="http://www.w3.org/2000/svg" class="text-success" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+                                        <span class="ml-2">Inbox </span>
+                                    </a>
+                                    <a href="page-login.html" class="dropdown-item ai-icon">
+                                        <svg id="icon-logout" xmlns="http://www.w3.org/2000/svg" class="text-danger" width="18" height="18" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path><polyline points="16 17 21 12 16 7"></polyline><line x1="21" y1="12" x2="9" y2="12"></line></svg>
+                                        <span class="ml-2">Logout </span>
+                                    </a>
+                                </div>
+                            </li>
+                            <li class="nav-item right-sidebar">
+                                <a class="nav-link bell ai-icon" href="#">
+                                    <svg id="icon-menu" viewbox="0 0 24 24" width="24" height="24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round" class="css-i6dzq1"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!--**********************************
+            Header end ti-comment-alt
+        ***********************************-->
+        <!--**********************************
+            Sidebar start
+        ***********************************-->
+        <div class="deznav">
+            <div class="deznav-scroll">
+                <ul class="nav menu-tabs">
+                    <li class="nav-item">
+                        <a class="nav-link active" data-toggle="tab" href="#dashboard">
+                            <svg id="icon-home1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-home"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path><polyline points="9 22 9 12 15 12 15 22"></polyline></svg>
+                            <h6>Content</h6>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " data-toggle="tab" href="#dashboard-area">
+                            <svg id="icon-home" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-box"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg>
+                            <h6>Media</h6>
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#apps">
+                            <svg id="icon-apps" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-users"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+                            <h6>Users</h6>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#components">
+                            <svg id="icon-bootstrap" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                            <h6>Menu</h6>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#forms">
+                            <svg id="icon-forms" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" style="stroke-dasharray: 66, 86; stroke-dashoffset: 0;"></path><path d="M14,2L14,8L20,8" style="stroke-dasharray: 12, 32; stroke-dashoffset: 0;"></path><path d="M16,13L8,13" style="stroke-dasharray: 8, 28; stroke-dashoffset: 0;"></path><path d="M16,17L8,17" style="stroke-dasharray: 8, 28; stroke-dashoffset: 2;"></path><path d="M10,9L9,9L8,9" style="stroke-dasharray: 2, 22; stroke-dashoffset: 12;"></path></svg>
+                            <h6>Forms</h6>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#table">
+                            <svg id="icon-table" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-server"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect><rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect><line x1="6" y1="6" x2="6" y2="6"></line><line x1="6" y1="18" x2="6" y2="18"></line></svg>
+                            <h6>Table</h6>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="tab" href="#extra">
+                            <svg id="icon-pages" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg>
+                            <h6>Extra</h6>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+        <!--**********************************
+            Sidebar end
+        ***********************************-->
+        <!--**********************************
+            Content body start
+        ***********************************-->
+        <div class="row mt-5 pt-3">
+            <div class="col-md-2"></div>
+            <div class="col-md-10">
+                <div class="container pt-5">
+                    @RenderBody()
+                </div>
+            </div>
+
+        </div>
+        <!--**********************************
+            Content body end
+        ***********************************-->
+        <!--**********************************
+            Footer start
+        ***********************************-->
+        <!--<div class="footer">
+            <div class="copyright">
+                <p>Copyright © Designed &amp; Developed by <a href="../index.htm" target="_blank">İHSAN FİL</a> 2020</p>
+            </div>
+        </div>-->
+        <!--**********************************
+            Footer end
+        ***********************************-->
+        <!--**********************************
+           Support ticket button start
+        ***********************************-->
+        <!--**********************************
+           Support ticket button end
+        ***********************************-->
+        <style>
+            .cms-dropdown-menu {
+                padding-left: 10px;
+            }
+
+            .cms-history-btn {
+                width: 70px;
+            }
+
+            .cms-category-list {
+                border: 2px solid #ccc;
+                width: 300px;
+                height: 100px;
+                overflow-y: scroll;
+                padding-left: 15px;
+                padding-top: 10px;
+            }
+
+            .info-box h6 {
+                background: #f3f3f5;
+                height: 50px;
+                border-top-left-radius: 10px;
+                border-top-right-radius: 10px;
+                padding-left: 15px;
+                padding-top: 15px;
+            }
+
+            .history-tl-container {
+                width: 100%;
+                margin: auto;
+                display: block;
+                position: relative;
+            }
+
+                .history-tl-container ul.tl {
+                    margin: 20px 0;
+                    padding: 0;
+                    display: inline-block;
+                }
+
+                    .history-tl-container ul.tl li {
+                        list-style: none;
+                        margin: auto;
+                        margin-left: 10px;
+                        min-height: 50px;
+                        /*background: rgba(255,255,0,0.1);*/
+                        border-left: 1px dashed #86D6FF;
+                        padding: 0 0 50px 30px;
+                        position: relative;
+                    }
+
+                        .history-tl-container ul.tl li:last-child {
+                            border-left: 0;
+                        }
+
+                        .history-tl-container ul.tl li::before {
+                            position: absolute;
+                            left: -11px;
+                            top: -5px;
+                            content: " ";
+                            border: 8px solid rgba(255, 255, 255, 0.74);
+                            border-radius: 500%;
+                            background: #258CC7;
+                            height: 20px;
+                            width: 20px;
+                            transition: all 500ms ease-in-out;
+                        }
+
+            ul.tl li .item-title {
+            }
+
+            ul.tl li .item-detail {
+                color: rgba(0,0,0,0.5);
+                font-size: 12px;
+            }
+
+            ul.tl li .timestamp {
+                color: #8D8D8D;
+                position: absolute;
+                width: 100px;
+                left: -50%;
+                text-align: right;
+                font-size: 12px;
+            }
+
+            .cms-history .saveandpublishbtn {
+                text-align: center;
+                padding: 5px;
+                font-size: 11px !important;
+                margin-top: 13px;
+                display: block;
+                background-color: #0da779;
+                color: white;
+            }
+
+            .cms-history .savebtn {
+                text-align: center;
+                padding: 5px;
+                font-size: 11px !important;
+                margin-top: 13px;
+                display: block;
+                background-color: #675e7a;
+                color: white;
+            }
+
+            .cms-history .updatebtn {
+                text-align: center;
+                padding: 5px;
+                font-size: 11px !important;
+                margin-top: 13px;
+                display: block;
+                background-color: #ffc107;
+                color: white;
+            }
+        </style>
+        <style>
+            .herobox {
+                width: 150px;
+                height: 150px;
+                border: 2px dashed #d7dae3;
+                position: relative;
+                cursor: pointer;
+                transition: all .15s ease-in-out;
+            }
+
+                .herobox i {
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    opacity: 0.5;
+                    transform: translate(-50%,-50%);
+                    transition: all .15s ease-in-out;
+                }
+
+                .herobox:hover {
+                    border: 2px dashed #00aea2;
+                }
+
+                    .herobox:hover i {
+                        color: #00aea2;
+                    }
+
+            .actionlinkbox {
+                border: 2px dashed #d7dae3;
+                height: 40px;
+                width: 100%;
+                text-align: center;
+                line-height: 38px;
+                font-weight: bold;
+                transition: all .15s ease-in-out;
+                cursor: pointer;
+            }
+
+                .actionlinkbox.active p {
+                    font-size: 11px;
+                }
+
+                .actionlinkbox.active:hover {
+                    border: none;
+                    color: #333;
+                }
+
+                .actionlinkbox:hover {
+                    border: 2px dashed #00aea2;
+                    color: #00aea2;
+                }
+
+                .actionlinkbox h6 {
+                    text-align: center;
+                    width: 100%;
+                    line-height: 40px;
+                }
+
+
+            .in-section {
+                margin-bottom: 50px;
+            }
+
+            .actionlinkbox.active {
+                border: none;
+                background: #f3f3f5;
+                color: #817f85;
+                cursor: inherit;
+                height: 50px;
+                padding-top: 6px;
+            }
+
+                .actionlinkbox.active strong {
+                    font-size: 13px;
+                }
+
+                .actionlinkbox.active h6 {
+                    line-height: 20px;
+                    margin-bottom: 0;
+                }
+
+            .cms-form-footer {
+                position: fixed;
+                bottom: 0;
+                right: 0;
+                background: #f3f3f5;
+                width: 100%;
+                height: 68px;
+                padding-right: 50px;
+                padding-top: 20px;
+            }
+
+            .cms-form-header {
+                position: fixed;
+                top: 79px;
+                right: 0;
+                background-color: #f3f3f5;
+                width: 100%;
+                height: 49px;
+                padding-top: 10px;
+                z-index: 1;
+                padding-right: 72px;
+            }
+
+                /*  .cms-form-header {
+                position: fixed;
+                top: 79px;
+                right: 0;
+                width: 100%;
+                height: 50px;
+                padding-top: 10px;
+                z-index: 1;
+                padding-right: 72px;
+                border-bottom: 1px solid #3a7afe;
+                background: white;
+            }*/
+
+                .cms-form-header .nav-tabs {
+                    border: none;
+                }
+            /**********== PUBLISH & UNPUBLISH BTN SETTING ==******************/
+            .toggle-btn {
+                width: 55px;
+                height: 26px;
+                margin: 10px;
+                margin-left: 0;
+                border-radius: 50px;
+                display: inline-block;
+                position: relative;
+                background: url('data:image/png; base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAyklEQVQ4T42TaxHCQAyENw5wAhLACVUAUkABOCkSwEkdhNmbpHNckzv689L98toIAKjqGcAFwElEFr5ln6ruAMwA7iLyFBM/TPDuQSrxwf6fCKBoX2UMIYGYkg8BLOnVg2RiAEexGaQQq4w9e9klcxGLLAUwgDAcihlYAR1IvZA1sz/+AAaQjXhTQQVoe2Yo3E7UQiT2ijeQdojRtClOfVKvMVyVpU594kZK9zzySWTlcNqZY9tjCsUds00+A57z1e35xzlzJjee8xf0HYp+cOZQUQAAAABJRU5ErkJggg==') no-repeat 30px center #e74c3c;
+                cursor: pointer;
+                -webkit-transition: background-color 0.4s ease-in-out;
+                -moz-transition: background-color 0.4s ease-in-out;
+                -o-transition: background-color 0.4s ease-in-out;
+                transition: background-color 0.4s ease-in-out;
+                cursor: pointer;
+            }
+
+                .toggle-btn.active {
+                    background: url('data:image/png; base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAmUlEQVQ4T6WT0RWDMAhFeZs4ipu0mawZpaO4yevBc6hUIWLNd+4NeQDk5sE/PMkZwFvZywKSTxF5iUgH0C4JHGyF97IggFVSqyCFga0CvQSg70Mdwd8QSSr4sGBMcgavAgdvwQCtApvA2uKr1x7Pu++06ItrF5LXPB/CP4M0kKTwYRIDyRAOR9lJTuF0F0hOAJbKopVHOZN9ACS0UgowIx8ZAAAAAElFTkSuQmCC') no-repeat 10px center #2ecc71;
+                }
+
+                    .toggle-btn.active .round-btn {
+                        left: 29px;
+                    }
+
+                .toggle-btn .round-btn {
+                    width: 20px;
+                    height: 20px;
+                    background-color: #fff;
+                    border-radius: 50%;
+                    display: inline-block;
+                    position: absolute;
+                    left: 5px;
+                    top: 18px;
+                    margin-top: -15px;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    -moz-transition: all 0.3s ease-in-out;
+                    -o-transition: all 0.3s ease-in-out;
+                    transition: all 0.3s ease-in-out;
+                }
+
+                .toggle-btn .cb-value {
+                    position: absolute;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    height: 100%;
+                    opacity: 0;
+                    z-index: 9;
+                    cursor: pointer;
+                    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+                }
+
+            .made-with-love {
+                position: fixed;
+                left: 0;
+                width: 100%;
+                bottom: 10px;
+                text-align: center;
+                font-size: 10px;
+                z-index: 9999;
+                font-family: arial;
+                color: #fff;
+            }
+
+                .made-with-love i {
+                    font-style: normal;
+                    color: #f50057;
+                    font-size: 14px;
+                    position: relative;
+                    top: 2px;
+                }
+
+                .made-with-love a {
+                    color: #fff;
+                    text-decoration: none;
+                }
+
+                    .made-with-love a:hover {
+                        text-decoration: underline;
+                    }
+        </style>
+
+    </div>
+    <!--**********************************
+        Main wrapper end
+    ***********************************-->
+    <!--**********************************
+        Scripts
+    ***********************************-->
+    <!-- Required vendors -->
+    <script src="https://kit.fontawesome.com/3e86883460.js" crossorigin="anonymous"></script>
+    <script src="~/Assets/vendor/global/global.min.js"></script>
+    <script src="~/Assets/vendor/bootstrap-select/dist/js/bootstrap-select.min.js"></script>
+    <script src="~/Assets/vendor/chart.js/Chart.bundle.min.js"></script>
+    <script src="~/Assets/js/custom.min.js"></script>
+    <script src="~/Assets/js/deznav-init.js"></script>
+    <!-- Apex Chart -->
+    <script src="~/Assets/vendor/apexchart/apexchart.js"></script>
+    <!-- Chart piety plugin files -->
+    <script src="~/Assets/vendor/peity/jquery.peity.min.js"></script>
+    <!-- Chartist -->
+    <script src="~/Assets/vendor/chartist/js/chartist.min.js"></script>
+    <!-- Dashboard 1 -->
+    <script src="~/Assets/js/dashboard/dashboard-1.js"></script>
+    <!-- Svganimation scripts -->
+    <script src="~/Assets/vendor/svganimation/vivus.min.js"></script>
+    <script src="~/Assets/vendor/svganimation/svg.animation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"></script>
+    <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+    @RenderSection("Scripts", false)
+    <script>
+        CKEDITOR.replaceClass("ckeditor");
+    </script>
+    <script>
+        $('.cb-value').click(function () {
+            var mainParent = $(this).parent('.toggle-btn');
+            if ($(mainParent).find('input.cb-value').is(':checked')) {
+                $(mainParent).addClass('active');
+            } else {
+                $(mainParent).removeClass('active');
+            }
+        });
+    </script>
+    <!-- BOOTSTRAP TAG -->
+    <script>
+        // bootstrap-tagsinput.js file - add in local
+
+        (function ($) {
+            "use strict";
+
+            var defaultOptions = {
+                tagClass: function (item) {
+                    return 'label label-info';
+                },
+                itemValue: function (item) {
+                    return item ? item.toString() : item;
+                },
+                itemText: function (item) {
+                    return this.itemValue(item);
+                },
+                itemTitle: function (item) {
+                    return null;
+                },
+                freeInput: true,
+                addOnBlur: true,
+                maxTags: undefined,
+                maxChars: undefined,
+                confirmKeys: [13, 44],
+                delimiter: ',',
+                delimiterRegex: null,
+                cancelConfirmKeysOnEmpty: true,
+                onTagExists: function (item, $tag) {
+                    $tag.hide().fadeIn();
+                },
+                trimValue: false,
+                allowDuplicates: false
+            };
+
+            /**
+             * Constructor function
+             */
+            function TagsInput(element, options) {
+                this.itemsArray = [];
+
+                this.$element = $(element);
+                this.$element.hide();
+
+                this.isSelect = (element.tagName === 'SELECT');
+                this.multiple = (this.isSelect && element.hasAttribute('multiple'));
+                this.objectItems = options && options.itemValue;
+                this.placeholderText = element.hasAttribute('placeholder') ? this.$element.attr('placeholder') : '';
+                this.inputSize = Math.max(1, this.placeholderText.length);
+
+                this.$container = $('<div class="bootstrap-tagsinput"></div>');
+                this.$input = $('<input type="text" placeholder="' + this.placeholderText + '"/>').appendTo(this.$container);
+
+                this.$element.before(this.$container);
+
+                this.build(options);
+            }
+
+            TagsInput.prototype = {
+                constructor: TagsInput,
+
+                /**
+                 * Adds the given item as a new tag. Pass true to dontPushVal to prevent
+                 * updating the elements val()
+                 */
+                add: function (item, dontPushVal, options) {
+                    var self = this;
+
+                    if (self.options.maxTags && self.itemsArray.length >= self.options.maxTags)
+                        return;
+
+                    // Ignore falsey values, except false
+                    if (item !== false && !item)
+                        return;
+
+                    // Trim value
+                    if (typeof item === "string" && self.options.trimValue) {
+                        item = $.trim(item);
+                    }
+
+                    // Throw an error when trying to add an object while the itemValue option was not set
+                    if (typeof item === "object" && !self.objectItems)
+                        throw ("Can't add objects when itemValue option is not set");
+
+                    // Ignore strings only containg whitespace
+                    if (item.toString().match(/^\s*$/))
+                        return;
+
+                    // If SELECT but not multiple, remove current tag
+                    if (self.isSelect && !self.multiple && self.itemsArray.length > 0)
+                        self.remove(self.itemsArray[0]);
+
+                    if (typeof item === "string" && this.$element[0].tagName === 'INPUT') {
+                        var delimiter = (self.options.delimiterRegex) ? self.options.delimiterRegex : self.options.delimiter;
+                        var items = item.split(delimiter);
+                        if (items.length > 1) {
+                            for (var i = 0; i < items.length; i++) {
+                                this.add(items[i], true);
+                            }
+
+                            if (!dontPushVal)
+                                self.pushVal();
+                            return;
+                        }
+                    }
+
+                    var itemValue = self.options.itemValue(item),
+                        itemText = self.options.itemText(item),
+                        tagClass = self.options.tagClass(item),
+                        itemTitle = self.options.itemTitle(item);
+
+                    // Ignore items allready added
+                    var existing = $.grep(self.itemsArray, function (item) { return self.options.itemValue(item) === itemValue; })[0];
+                    if (existing && !self.options.allowDuplicates) {
+                        // Invoke onTagExists
+                        if (self.options.onTagExists) {
+                            var $existingTag = $(".tag", self.$container).filter(function () { return $(this).data("item") === existing; });
+                            self.options.onTagExists(item, $existingTag);
+                        }
+                        return;
+                    }
+
+                    // if length greater than limit
+                    if (self.items().toString().length + item.length + 1 > self.options.maxInputLength)
+                        return;
+
+                    // raise beforeItemAdd arg
+                    var beforeItemAddEvent = $.Event('beforeItemAdd', { item: item, cancel: false, options: options });
+                    self.$element.trigger(beforeItemAddEvent);
+                    if (beforeItemAddEvent.cancel)
+                        return;
+
+                    // register item in internal array and map
+                    self.itemsArray.push(item);
+
+                    // add a tag element
+
+                    var $tag = $('<span class="tag ' + htmlEncode(tagClass) + (itemTitle !== null ? ('" title="' + itemTitle) : '') + '">' + htmlEncode(itemText) + '<span data-role="remove"></span></span>');
+                    $tag.data('item', item);
+                    self.findInputWrapper().before($tag);
+                    $tag.after(' ');
+
+                    // add <option /> if item represents a value not present in one of the <select />'s options
+                    if (self.isSelect && !$('option[value="' + encodeURIComponent(itemValue) + '"]', self.$element)[0]) {
+                        var $option = $('<option selected>' + htmlEncode(itemText) + '</option>');
+                        $option.data('item', item);
+                        $option.attr('value', itemValue);
+                        self.$element.append($option);
+                    }
+
+                    if (!dontPushVal)
+                        self.pushVal();
+
+                    // Add class when reached maxTags
+                    if (self.options.maxTags === self.itemsArray.length || self.items().toString().length === self.options.maxInputLength)
+                        self.$container.addClass('bootstrap-tagsinput-max');
+
+                    self.$element.trigger($.Event('itemAdded', { item: item, options: options }));
+                },
+
+                /**
+                 * Removes the given item. Pass true to dontPushVal to prevent updating the
+                 * elements val()
+                 */
+                remove: function (item, dontPushVal, options) {
+                    var self = this;
+
+                    if (self.objectItems) {
+                        if (typeof item === "object")
+                            item = $.grep(self.itemsArray, function (other) { return self.options.itemValue(other) == self.options.itemValue(item); });
+                        else
+                            item = $.grep(self.itemsArray, function (other) { return self.options.itemValue(other) == item; });
+
+                        item = item[item.length - 1];
+                    }
+
+                    if (item) {
+                        var beforeItemRemoveEvent = $.Event('beforeItemRemove', { item: item, cancel: false, options: options });
+                        self.$element.trigger(beforeItemRemoveEvent);
+                        if (beforeItemRemoveEvent.cancel)
+                            return;
+
+                        $('.tag', self.$container).filter(function () { return $(this).data('item') === item; }).remove();
+                        $('option', self.$element).filter(function () { return $(this).data('item') === item; }).remove();
+                        if ($.inArray(item, self.itemsArray) !== -1)
+                            self.itemsArray.splice($.inArray(item, self.itemsArray), 1);
+                    }
+
+                    if (!dontPushVal)
+                        self.pushVal();
+
+                    // Remove class when reached maxTags
+                    if (self.options.maxTags > self.itemsArray.length)
+                        self.$container.removeClass('bootstrap-tagsinput-max');
+
+                    self.$element.trigger($.Event('itemRemoved', { item: item, options: options }));
+                },
+
+                /**
+                 * Removes all items
+                 */
+                removeAll: function () {
+                    var self = this;
+
+                    $('.tag', self.$container).remove();
+                    $('option', self.$element).remove();
+
+                    while (self.itemsArray.length > 0)
+                        self.itemsArray.pop();
+
+                    self.pushVal();
+                },
+
+                /**
+                 * Refreshes the tags so they match the text/value of their corresponding
+                 * item.
+                 */
+                refresh: function () {
+                    var self = this;
+                    $('.tag', self.$container).each(function () {
+                        var $tag = $(this),
+                            item = $tag.data('item'),
+                            itemValue = self.options.itemValue(item),
+                            itemText = self.options.itemText(item),
+                            tagClass = self.options.tagClass(item);
+
+                        // Update tag's class and inner text
+                        $tag.attr('class', null);
+                        $tag.addClass('tag ' + htmlEncode(tagClass));
+                        $tag.contents().filter(function () {
+                            return this.nodeType == 3;
+                        })[0].nodeValue = htmlEncode(itemText);
+
+                        if (self.isSelect) {
+                            var option = $('option', self.$element).filter(function () { return $(this).data('item') === item; });
+                            option.attr('value', itemValue);
+                        }
+                    });
+                },
+
+                /**
+                 * Returns the items added as tags
+                 */
+                items: function () {
+                    return this.itemsArray;
+                },
+
+                /**
+                 * Assembly value by retrieving the value of each item, and set it on the
+                 * element.
+                 */
+                pushVal: function () {
+                    var self = this,
+                        val = $.map(self.items(), function (item) {
+                            return self.options.itemValue(item).toString();
+                        });
+
+                    self.$element.val(val, true).trigger('change');
+                },
+
+                /**
+                 * Initializes the tags input behaviour on the element
+                 */
+                build: function (options) {
+                    var self = this;
+
+                    self.options = $.extend({}, defaultOptions, options);
+                    // When itemValue is set, freeInput should always be false
+                    if (self.objectItems)
+                        self.options.freeInput = false;
+
+                    makeOptionItemFunction(self.options, 'itemValue');
+                    makeOptionItemFunction(self.options, 'itemText');
+                    makeOptionFunction(self.options, 'tagClass');
+
+                    // Typeahead Bootstrap version 2.3.2
+                    if (self.options.typeahead) {
+                        var typeahead = self.options.typeahead || {};
+
+                        makeOptionFunction(typeahead, 'source');
+
+                        self.$input.typeahead($.extend({}, typeahead, {
+                            source: function (query, process) {
+                                function processItems(items) {
+                                    var texts = [];
+
+                                    for (var i = 0; i < items.length; i++) {
+                                        var text = self.options.itemText(items[i]);
+                                        map[text] = items[i];
+                                        texts.push(text);
+                                    }
+                                    process(texts);
+                                }
+
+                                this.map = {};
+                                var map = this.map,
+                                    data = typeahead.source(query);
+
+                                if ($.isFunction(data.success)) {
+                                    // support for Angular callbacks
+                                    data.success(processItems);
+                                } else if ($.isFunction(data.then)) {
+                                    // support for Angular promises
+                                    data.then(processItems);
+                                } else {
+                                    // support for functions and jquery promises
+                                    $.when(data)
+                                        .then(processItems);
+                                }
+                            },
+                            updater: function (text) {
+                                self.add(this.map[text]);
+                                return this.map[text];
+                            },
+                            matcher: function (text) {
+                                return (text.toLowerCase().indexOf(this.query.trim().toLowerCase()) !== -1);
+                            },
+                            sorter: function (texts) {
+                                return texts.sort();
+                            },
+                            highlighter: function (text) {
+                                var regex = new RegExp('(' + this.query + ')', 'gi');
+                                return text.replace(regex, "<strong>$1</strong>");
+                            }
+                        }));
+                    }
+
+                    // typeahead.js
+                    if (self.options.typeaheadjs) {
+                        var typeaheadConfig = null;
+                        var typeaheadDatasets = {};
+
+                        // Determine if main configurations were passed or simply a dataset
+                        var typeaheadjs = self.options.typeaheadjs;
+                        if ($.isArray(typeaheadjs)) {
+                            typeaheadConfig = typeaheadjs[0];
+                            typeaheadDatasets = typeaheadjs[1];
+                        } else {
+                            typeaheadDatasets = typeaheadjs;
+                        }
+
+                        self.$input.typeahead(typeaheadConfig, typeaheadDatasets).on('typeahead:selected', $.proxy(function (obj, datum) {
+                            if (typeaheadDatasets.valueKey)
+                                self.add(datum[typeaheadDatasets.valueKey]);
+                            else
+                                self.add(datum);
+                            self.$input.typeahead('val', '');
+                        }, self));
+                    }
+
+                    self.$container.on('click', $.proxy(function (event) {
+                        if (!self.$element.attr('disabled')) {
+                            self.$input.removeAttr('disabled');
+                        }
+                        self.$input.focus();
+                    }, self));
+
+                    if (self.options.addOnBlur && self.options.freeInput) {
+                        self.$input.on('focusout', $.proxy(function (event) {
+                            // HACK: only process on focusout when no typeahead opened, to
+                            //       avoid adding the typeahead text as tag
+                            if ($('.typeahead, .twitter-typeahead', self.$container).length === 0) {
+                                self.add(self.$input.val());
+                                self.$input.val('');
+                            }
+                        }, self));
+                    }
+
+
+                    self.$container.on('keydown', 'input', $.proxy(function (event) {
+                        var $input = $(event.target),
+                            $inputWrapper = self.findInputWrapper();
+
+                        if (self.$element.attr('disabled')) {
+                            self.$input.attr('disabled', 'disabled');
+                            return;
+                        }
+
+                        switch (event.which) {
+                            // BACKSPACE
+                            case 8:
+                                if (doGetCaretPosition($input[0]) === 0) {
+                                    var prev = $inputWrapper.prev();
+                                    if (prev.length) {
+                                        self.remove(prev.data('item'));
+                                    }
+                                }
+                                break;
+
+                            // DELETE
+                            case 46:
+                                if (doGetCaretPosition($input[0]) === 0) {
+                                    var next = $inputWrapper.next();
+                                    if (next.length) {
+                                        self.remove(next.data('item'));
+                                    }
+                                }
+                                break;
+
+                            // LEFT ARROW
+                            case 37:
+                                // Try to move the input before the previous tag
+                                var $prevTag = $inputWrapper.prev();
+                                if ($input.val().length === 0 && $prevTag[0]) {
+                                    $prevTag.before($inputWrapper);
+                                    $input.focus();
+                                }
+                                break;
+                            // RIGHT ARROW
+                            case 39:
+                                // Try to move the input after the next tag
+                                var $nextTag = $inputWrapper.next();
+                                if ($input.val().length === 0 && $nextTag[0]) {
+                                    $nextTag.after($inputWrapper);
+                                    $input.focus();
+                                }
+                                break;
+                            default:
+                            // ignore
+                        }
+
+                        // Reset internal input's size
+                        var textLength = $input.val().length,
+                            wordSpace = Math.ceil(textLength / 5),
+                            size = textLength + wordSpace + 1;
+                        $input.attr('size', Math.max(this.inputSize, $input.val().length));
+                    }, self));
+
+                    self.$container.on('keypress', 'input', $.proxy(function (event) {
+                        var $input = $(event.target);
+
+                        if (self.$element.attr('disabled')) {
+                            self.$input.attr('disabled', 'disabled');
+                            return;
+                        }
+
+                        var text = $input.val(),
+                            maxLengthReached = self.options.maxChars && text.length >= self.options.maxChars;
+                        if (self.options.freeInput && (keyCombinationInList(event, self.options.confirmKeys) || maxLengthReached)) {
+                            // Only attempt to add a tag if there is data in the field
+                            if (text.length !== 0) {
+                                self.add(maxLengthReached ? text.substr(0, self.options.maxChars) : text);
+                                $input.val('');
+                            }
+
+                            // If the field is empty, let the event triggered fire as usual
+                            if (self.options.cancelConfirmKeysOnEmpty === false) {
+                                event.preventDefault();
+                            }
+                        }
+
+                        // Reset internal input's size
+                        var textLength = $input.val().length,
+                            wordSpace = Math.ceil(textLength / 5),
+                            size = textLength + wordSpace + 1;
+                        $input.attr('size', Math.max(this.inputSize, $input.val().length));
+                    }, self));
+
+                    // Remove icon clicked
+                    self.$container.on('click', '[data-role=remove]', $.proxy(function (event) {
+                        if (self.$element.attr('disabled')) {
+                            return;
+                        }
+                        self.remove($(event.target).closest('.tag').data('item'));
+                    }, self));
+
+                    // Only add existing value as tags when using strings as tags
+                    if (self.options.itemValue === defaultOptions.itemValue) {
+                        if (self.$element[0].tagName === 'INPUT') {
+                            self.add(self.$element.val());
+                        } else {
+                            $('option', self.$element).each(function () {
+                                self.add($(this).attr('value'), true);
+                            });
+                        }
+                    }
+                },
+
+                /**
+                 * Removes all tagsinput behaviour and unregsiter all event handlers
+                 */
+                destroy: function () {
+                    var self = this;
+
+                    // Unbind events
+                    self.$container.off('keypress', 'input');
+                    self.$container.off('click', '[role=remove]');
+
+                    self.$container.remove();
+                    self.$element.removeData('tagsinput');
+                    self.$element.show();
+                },
+
+                /**
+                 * Sets focus on the tagsinput
+                 */
+                focus: function () {
+                    this.$input.focus();
+                },
+
+                /**
+                 * Returns the internal input element
+                 */
+                input: function () {
+                    return this.$input;
+                },
+
+                /**
+                 * Returns the element which is wrapped around the internal input. This
+                 * is normally the $container, but typeahead.js moves the $input element.
+                 */
+                findInputWrapper: function () {
+                    var elt = this.$input[0],
+                        container = this.$container[0];
+                    while (elt && elt.parentNode !== container)
+                        elt = elt.parentNode;
+
+                    return $(elt);
+                }
+            };
+
+            /**
+             * Register JQuery plugin
+             */
+            $.fn.tagsinput = function (arg1, arg2, arg3) {
+                var results = [];
+
+                this.each(function () {
+                    var tagsinput = $(this).data('tagsinput');
+                    // Initialize a new tags input
+                    if (!tagsinput) {
+                        tagsinput = new TagsInput(this, arg1);
+                        $(this).data('tagsinput', tagsinput);
+                        results.push(tagsinput);
+
+                        if (this.tagName === 'SELECT') {
+                            $('option', $(this)).attr('selected', 'selected');
+                        }
+
+                        // Init tags from $(this).val()
+                        $(this).val($(this).val());
+                    } else if (!arg1 && !arg2) {
+                        // tagsinput already exists
+                        // no function, trying to init
+                        results.push(tagsinput);
+                    } else if (tagsinput[arg1] !== undefined) {
+                        // Invoke function on existing tags input
+                        if (tagsinput[arg1].length === 3 && arg3 !== undefined) {
+                            var retVal = tagsinput[arg1](arg2, null, arg3);
+                        } else {
+                            var retVal = tagsinput[arg1](arg2);
+                        }
+                        if (retVal !== undefined)
+                            results.push(retVal);
+                    }
+                });
+
+                if (typeof arg1 == 'string') {
+                    // Return the results from the invoked function calls
+                    return results.length > 1 ? results : results[0];
+                } else {
+                    return results;
+                }
+            };
+
+            $.fn.tagsinput.Constructor = TagsInput;
+
+            /**
+             * Most options support both a string or number as well as a function as
+             * option value. This function makes sure that the option with the given
+             * key in the given options is wrapped in a function
+             */
+            function makeOptionItemFunction(options, key) {
+                if (typeof options[key] !== 'function') {
+                    var propertyName = options[key];
+                    options[key] = function (item) { return item[propertyName]; };
+                }
+            }
+            function makeOptionFunction(options, key) {
+                if (typeof options[key] !== 'function') {
+                    var value = options[key];
+                    options[key] = function () { return value; };
+                }
+            }
+            /**
+             * HtmlEncodes the given value
+             */
+            var htmlEncodeContainer = $('<div />');
+            function htmlEncode(value) {
+                if (value) {
+                    return htmlEncodeContainer.text(value).html();
+                } else {
+                    return '';
+                }
+            }
+
+            /**
+             * Returns the position of the caret in the given input field
+             * http://flightschool.acylt.com/devnotes/caret-position-woes/
+             */
+            function doGetCaretPosition(oField) {
+                var iCaretPos = 0;
+                if (document.selection) {
+                    oField.focus();
+                    var oSel = document.selection.createRange();
+                    oSel.moveStart('character', -oField.value.length);
+                    iCaretPos = oSel.text.length;
+                } else if (oField.selectionStart || oField.selectionStart == '0') {
+                    iCaretPos = oField.selectionStart;
+                }
+                return (iCaretPos);
+            }
+
+            function keyCombinationInList(keyPressEvent, lookupList) {
+                var found = false;
+                $.each(lookupList, function (index, keyCombination) {
+                    if (typeof (keyCombination) === 'number' && keyPressEvent.which === keyCombination) {
+                        found = true;
+                        return false;
+                    }
+
+                    if (keyPressEvent.which === keyCombination.which) {
+                        var alt = !keyCombination.hasOwnProperty('altKey') || keyPressEvent.altKey === keyCombination.altKey,
+                            shift = !keyCombination.hasOwnProperty('shiftKey') || keyPressEvent.shiftKey === keyCombination.shiftKey,
+                            ctrl = !keyCombination.hasOwnProperty('ctrlKey') || keyPressEvent.ctrlKey === keyCombination.ctrlKey;
+                        if (alt && shift && ctrl) {
+                            found = true;
+                            return false;
+                        }
+                    }
+                });
+
+                return found;
+            }
+
+            /**
+             * Initialize tagsinput behaviour on inputs and selects which have
+             * data-role=tagsinput
+             */
+            $(function () {
+                $("input[data-role=tagsinput], select[multiple][data-role=tagsinput]").tagsinput();
+            });
+        })(window.jQuery);
+
+    </script>
+</body>
+</html>

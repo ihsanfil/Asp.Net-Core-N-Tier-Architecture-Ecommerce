@@ -36,6 +36,12 @@ namespace ShopApp.WebUI.Controllers
             return View(new ProductModel());
         }
 
+        [HttpGet]
+        public IActionResult AdminDashboard()
+        {
+            return View();
+        }
+
         [HttpPost]
         public IActionResult CreateProduct(ProductModel model)
         {

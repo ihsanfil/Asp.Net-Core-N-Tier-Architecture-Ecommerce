@@ -112,7 +112,19 @@ namespace ShopApp.WebUI.Controllers
 
             if (result.Succeeded)
             {
-                return Redirect(model.ReturnUrl ?? "~/");
+                /* ******
+                 * ********
+                 * *************/
+                //BURADA ROL SORGUSU YAZICAZ
+                if (user.UserName == "ihsans")
+                {
+                    return Redirect("~/Admin/AdminDashboard");
+                }
+                else
+                {
+                    return Redirect(model.ReturnUrl ?? "~/");
+                }
+               
             }
 
             ModelState.AddModelError("", "Email veya parola yanlış");
@@ -122,7 +134,7 @@ namespace ShopApp.WebUI.Controllers
         public async Task<IActionResult> Logout()
         {
             await _signInManager.SignOutAsync();
-         
+
             TempData.Put("message", new ResultMessage()
             {
                 Title = "Oturum Kapatıldı",

@@ -152,3 +152,5 @@ C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.
 C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.WebUI\obj\Debug\netcoreapp2.2\ShopApp.WebUI.dll
 C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.WebUI\obj\Debug\netcoreapp2.2\ShopApp.WebUI.pdb
 C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.WebUI\obj\Debug\netcoreapp2.2\ShopApp.WebUI.genruntimeconfig.cache
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Admin\AdminDashboard.cshtml.g.cs
+C:\Users\MSİ\Desktop\ShopApp-Githup\Asp.Net-Core---N-Tier-Architecture\ShopApp.WebUI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_LayoutAdmin.cshtml.g.cs

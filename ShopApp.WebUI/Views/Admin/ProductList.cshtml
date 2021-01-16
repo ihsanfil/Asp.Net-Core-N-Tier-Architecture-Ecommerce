@@ -1,49 +1,53 @@
 ﻿@model ProductListModel
 @{
     ViewData["Title"] = "CreateProduct";
+    Layout = "~/Views/Shared/_LayoutAdmin.cshtml";
 }
 
-<h1>Admin Products</h1>
-<hr />
-@if (Model.Products.Count() > 0)
-{
-    <table class="table table-bordered">
-        <thead>
-            <tr>
-                <td style="width:30px;">Id</td>
-                <td style="width:100px;">Image</td>
-                <td>Name</td>
-                <td style="width:12px;">Price</td>
-                <td style="width:150px;"></td>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model.Products)
-            {
+<div class="row">
+    <h1>All Products</h1>
+    <hr />
+    @if (Model.Products.Count() > 0)
+    {
+        <table class="table table-bordered">
+            <thead>
                 <tr>
-                    <td>@item.Id</td>
-                    <td style="width:100px;">
-                        <img src="~/img/@item.ImageUrl" width="80" />
-                    </td>
-                    <td>@item.Name</td>
-                    <td style="width:12px;">@item.Price</td>
-                    <td style="width:150px;">
-                        <a class="btn btn-primary btn-sm mr-2" href="/admin/products/@item.Id">Edit</a>
-                        <form action="/admin/deleteproduct" method="post" style="display:inline;">
-                            <input type="hidden" name="productId" value="@item.Id" />
-                            <button type="submit" class="btn btn-danger btn-sm">Delete</button>
-                        </form>                       
-                    </td>
+                    <th style="width:30px;">Id</th>
+                    <th style="width:100px;">Image</th>
+                    <th>Name</th>
+                    <th style="width:12px;">Price</th>
+                    <th style="width:150px;"></th>
                 </tr>
-            }
+            </thead>
+            <tbody>
+                @foreach (var item in Model.Products)
+                {
+                    <tr>
+                        <td>@item.Id</td>
+                        <td style="width:100px;">
+                            <img src="~/img/@item.ImageUrl" width="80" />
+                        </td>
+                        <td>@item.Name</td>
+                        <td style="width:12px;">@item.Price</td>
+                        <td style="width:180px;">
+                            <a class="btn btn-primary btn-sm mr-2" href="/admin/products/@item.Id">Edit</a>
+                            <form action="/admin/deleteproduct" method="post" style="display:inline;">
+                                <input type="hidden" name="productId" value="@item.Id" />
+                                <button type="submit" class="btn btn-danger btn-sm">Delete</button>
+                            </form>
+                        </td>
+                    </tr>
+                }
 
-        </tbody>
+            </tbody>
 
-    </table>
-}
-else
-{
-    <div class="alert alert-warning">
-        <h4>No Products</h4>
-    </div>
-}
+        </table>
+    }
+    else
+    {
+        <div class="alert alert-warning">
+            <h4>No Products</h4>
+        </div>
+    }
+
+</div>
