@@ -116,7 +116,9 @@ namespace ShopApp.WebUI.Controllers
                  * ********
                  * *************/
                 //BURADA ROL SORGUSU YAZICAZ
-                if (user.UserName == "ihsans")
+                var roles = await _userManager.GetRolesAsync(user);
+
+                if (roles.FirstOrDefault() == "admin")
                 {
                     return Redirect("~/Admin/AdminDashboard");
                 }
