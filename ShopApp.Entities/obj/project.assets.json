@@ -692,11 +692,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.Entities\\ShopApp.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.Entities\\ShopApp.Entities.csproj",
       "projectName": "ShopApp.Entities",
-      "projectPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.Entities\\ShopApp.Entities.csproj",
+      "projectPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.Entities\\ShopApp.Entities.csproj",
       "packagesPath": "C:\\Users\\MSİ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.Entities\\obj\\",
+      "outputPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.Entities\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

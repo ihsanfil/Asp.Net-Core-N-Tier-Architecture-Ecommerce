@@ -3600,11 +3600,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
       "projectName": "ShopApp.DataAccess",
-      "projectPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
+      "projectPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.DataAccess\\ShopApp.DataAccess.csproj",
       "packagesPath": "C:\\Users\\MSİ\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -3623,8 +3623,8 @@
       "frameworks": {
         "netcoreapp2.2": {
           "projectReferences": {
-            "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.Entities\\ShopApp.Entities.csproj": {
-              "projectPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.Entities\\ShopApp.Entities.csproj"
+            "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.Entities\\ShopApp.Entities.csproj": {
+              "projectPath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.Entities\\ShopApp.Entities.csproj"
             }
           }
         }

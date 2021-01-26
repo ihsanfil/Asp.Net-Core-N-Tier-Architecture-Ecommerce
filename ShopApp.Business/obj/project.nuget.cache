@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "taPM0kxwJWx0vlHenKbaomt68XkTF1pAtV6OUuMb9tpLrjbyv2yTCl+9OVwf1n9gTSajh25z/HJTEy335L0ilQ==",
+  "dgSpecHash": "2EZNbdWAZL8atyYhMjf35S8w7eab/IXUad2I9t4G0uDndhObADEhtNKkHof3j440wfYBKziZ7VCoP3kXXvVBMg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.Business\\ShopApp.Business.csproj",
+  "projectFilePath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.Business\\ShopApp.Business.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\MSİ\\.nuget\\packages\\microsoft.entityframeworkcore\\2.2.4\\microsoft.entityframeworkcore.2.2.4.nupkg.sha512",

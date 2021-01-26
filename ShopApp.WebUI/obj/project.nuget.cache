@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "rT1fziE/izSY/8MLUeUE3+ozVcUmhIPOoA6+CEQqD2pr5voiGtQ45C4OGv7DHS/Q5HEjawCLrzgUfupNKN92xA==",
+  "dgSpecHash": "i81Ybdn6s9dobrl2LmsvgZU22D/QloDJsfY5FfNPGlU03wRRGYQYtQdtAJ2qIgFbEGB39ozaEIcspyWjdVa1rw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.WebUI\\ShopApp.WebUI.csproj",
+  "projectFilePath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.WebUI\\ShopApp.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MSİ\\.nuget\\packages\\iyzipaycore\\1.0.0\\iyzipaycore.1.0.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\libuv\\1.10.0\\libuv.1.10.0.nupkg.sha512",

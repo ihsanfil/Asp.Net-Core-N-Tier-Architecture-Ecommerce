@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5j4OaqwWUNqearp3SSgwA+Kky04lJyJm1kKGXT7y1mhF+7tu2XrzC/XoCocMSOwE0FZHquuMYGxD0/rAxHzYvw==",
+  "dgSpecHash": "2Z4JVUpBunpYYCglCfq3pMX4jJgSTmDmVhvTqFxgEbchvCp1Rt/FhU5Io4vliI21zpWjuol25Ig9aX8PrRUWvA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core---N-Tier-Architecture\\ShopApp.Entities\\ShopApp.Entities.csproj",
+  "projectFilePath": "C:\\Users\\MSİ\\Desktop\\ShopApp-Githup\\Asp.Net-Core-N-Tier-Architecture-Ecommerce-MultiLanguage\\ShopApp.Entities\\ShopApp.Entities.csproj",
   "expectedPackageFiles": [
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.app\\2.2.0\\microsoft.netcore.app.2.2.0.nupkg.sha512",
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.dotnetapphost\\2.2.0\\microsoft.netcore.dotnetapphost.2.2.0.nupkg.sha512",
