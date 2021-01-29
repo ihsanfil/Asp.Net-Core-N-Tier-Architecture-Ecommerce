@@ -3,15 +3,17 @@ using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ShopApp.DataAccess.Concrete.EfCore;
 
 namespace ShopApp.DataAccess.Migrations
 {
     [DbContext(typeof(ShopContext))]
-    partial class ShopContextModelSnapshot : ModelSnapshot
+    [Migration("20210129073202_productUpdate")]
+    partial class productUpdate
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -64,24 +66,6 @@ namespace ShopApp.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
-                });
-
-            modelBuilder.Entity("ShopApp.Entities.Culture", b =>
-                {
-                    b.Property<int>("CultureId")
-                        .ValueGeneratedOnAdd()
-                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
-
-                    b.Property<string>("CultureIcon");
-
-                    b.Property<string>("CultureName")
-                        .IsRequired();
-
-                    b.Property<string>("DisplayOrder");
-
-                    b.HasKey("CultureId");
-
-                    b.ToTable("Cultures");
                 });
 
             modelBuilder.Entity("ShopApp.Entities.Order", b =>
