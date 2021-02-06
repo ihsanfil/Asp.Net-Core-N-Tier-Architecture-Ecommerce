@@ -17,11 +17,14 @@ namespace ShopApp.DataAccess.Concrete.EfCore
         {
             modelBuilder.Entity<ProductCategory>()
                     .HasKey(c => new { c.CategoryId, c.ProductId });
+            modelBuilder.Entity<Product_Locale>()
+                  .HasKey(c => new { c.ProductId, c.CultureId });
         }
         public DbSet<Product> Products{ get; set; }
         public DbSet<Culture> Cultures{ get; set; }
         public DbSet<Category> Categories { get; set; }
         public DbSet<Cart> Carts { get; set; }
         public DbSet<Order> Orders { get; set; }
+       // public DbSet<Product_Locale> ProductLocales { get; set; }
     }
 }

@@ -139,7 +139,7 @@ namespace ShopApp.WebUI
                     );
             });
 
-            SeedIdentity.Seed(userManager, roleManager, Configuration).Wait();
+           // SeedIdentity.Seed(userManager, roleManager, Configuration).Wait();
         }
     }
 }

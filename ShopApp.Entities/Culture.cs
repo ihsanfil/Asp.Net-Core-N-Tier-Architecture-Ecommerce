@@ -12,5 +12,9 @@ namespace ShopApp.Entities
         public string CultureName { get; set; }
         public string CultureIcon { get; set; }
         public string DisplayOrder { get; set; }
+        public string FullDescription { get; set; }
+
+        //DİLLER
+        public List<Product_Locale> ProductLocales { get; set; }
     }
 }

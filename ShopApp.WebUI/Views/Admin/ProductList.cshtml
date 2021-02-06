@@ -25,10 +25,10 @@
                     <tr>
                         <td>@item.Id</td>
                         <td style="width:100px;">
-                            <img src="~/img/@item.ImageUrl" width="80" />
+                      @*      <img src="~/img/@item.ImageUrl" width="80" />*@
                         </td>
-                        <td>@item.Name</td>
-                        <td style="width:12px;">@item.Price</td>
+                        @*<td>@item.Name</td>
+                        <td style="width:12px;">@item.Price</td>*@
                         <td style="width:180px;">
                             <a class="btn btn-primary btn-sm mr-2" href="/admin/products/@item.Id">Edit</a>
                             <form action="/admin/deleteproduct" method="post" style="display:inline;">

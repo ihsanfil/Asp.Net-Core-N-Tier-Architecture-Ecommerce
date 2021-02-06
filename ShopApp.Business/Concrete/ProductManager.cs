@@ -76,11 +76,11 @@ namespace ShopApp.Business.Concrete
         public bool Validate(Product entity)
         {
             var isValid = true;
-            if (string.IsNullOrEmpty(entity.Name))
-            {
-                ErrorMessage += "ürün ismi girmelisiniz";
-                isValid = false;
-            }
+            //if (string.IsNullOrEmpty(entity.Name))
+            //{
+            //    ErrorMessage += "ürün ismi girmelisiniz";
+            //    isValid = false;
+            //}
 
             return isValid;
         }

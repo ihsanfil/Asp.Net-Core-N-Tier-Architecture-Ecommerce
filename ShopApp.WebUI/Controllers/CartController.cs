@@ -39,9 +39,9 @@ namespace ShopApp.WebUI.Controllers
                 {
                     CartItemId = i.Id,
                     ProductId = i.Product.Id,
-                    Name = i.Product.Name,
-                    Price = (decimal)i.Product.Price,
-                    ImageUrl = i.Product.ImageUrl,
+                    //Name = i.Product.Name,
+                    //Price = (decimal)i.Product.Price,
+                    //ImageUrl = i.Product.ImageUrl,
                     Quantity = i.Quantity
                 }).ToList()
             });
@@ -74,9 +74,9 @@ namespace ShopApp.WebUI.Controllers
                 {
                     CartItemId = i.Id,
                     ProductId = i.Product.Id,
-                    Name = i.Product.Name,
-                    Price = (decimal)i.Product.Price,
-                    ImageUrl = i.Product.ImageUrl,
+                    //Name = i.Product.Name,
+                    //Price = (decimal)i.Product.Price,
+                    //ImageUrl = i.Product.ImageUrl,
                     Quantity = i.Quantity
                 }).ToList()
             };
@@ -99,9 +99,9 @@ namespace ShopApp.WebUI.Controllers
                     {
                         CartItemId = i.Id,
                         ProductId = i.Product.Id,
-                        Name = i.Product.Name,
-                        Price = (decimal)i.Product.Price,
-                        ImageUrl = i.Product.ImageUrl,
+                        //Name = i.Product.Name,
+                        //Price = (decimal)i.Product.Price,
+                        //ImageUrl = i.Product.ImageUrl,
                         Quantity = i.Quantity
                     }).ToList()
                 };
@@ -268,10 +268,10 @@ namespace ShopApp.WebUI.Controllers
                 orderModel.OrderItems = order.OrderItems.Select(i => new OrderItemModel()
                 {
                     OrderItemId = i.Id,
-                    Name = i.Product.Name,
+                    //Name = i.Product.Name,
                     Price = i.Price,
                     Quantity = i.Quantity,
-                    ImageUrl = i.Product.ImageUrl
+                    //ImageUrl = i.Product.ImageUrl
                 }).ToList();
 
                 orderListModel.Add(orderModel);

@@ -19,12 +19,18 @@ namespace ShopApp.DataAccess.Concrete.EfCore
                 {
                     context.Categories.AddRange(Categories);
                 }
-
-                if (context.Products.Count() == 0)
+                if (context.Cultures.Count() == 0)
+                {
+                    context.Cultures.AddRange(Cultures);
+                }
+                if (context.Products.Count() <= 4)
                 {
                     context.Products.AddRange(Products);
+
+                    context.AddRange(ProductLocale);
                     context.AddRange(ProductCategory);
                 }
+               
 
                 context.SaveChanges();
             }
@@ -38,15 +44,29 @@ namespace ShopApp.DataAccess.Concrete.EfCore
 
         private static Product[] Products =
         {
-            new Product(){ Name="Samsung S5", Price=2000, ImageUrl="1.jpg", Description="<p>güzel telefon</p>"},
-            new Product(){ Name="Samsung S6", Price=3000, ImageUrl="2.jpg", Description="<p>güzel telefon</p>"},
-            new Product(){ Name="Samsung S7", Price=4000, ImageUrl="3.jpg", Description="<p>güzel telefon</p>"},
-            new Product(){ Name="Samsung S8", Price=5000, ImageUrl="4.jpg", Description="<p>güzel telefon</p>"},
-            new Product(){ Name="Samsung S9", Price=6000, ImageUrl="5.jpg", Description="<p>güzel telefon</p>"},
-            new Product(){ Name="IPhone 6", Price=4000, ImageUrl="6.jpg", Description="<p>güzel telefon</p>"},
-            new Product(){ Name="IPhone 7", Price=5000, ImageUrl="7.jpg", Description="<p>güzel telefon</p>"}
-        };
+            //BOŞ DEĞER OLUSTURDUK PRODUCT OLUŞSUN Kİ AŞAĞIDA DEĞER GİREBİLELİM !
+            new Product(){DefaultName=""},
+            new Product(){DefaultName=""},
+            new Product(){DefaultName=""},
+            new Product(){DefaultName=""},
+            new Product(){DefaultName=""}
 
+        };
+        private static Culture[] Cultures = {
+            new Culture(){ CultureName = "Turkish" },
+            new Culture(){ CultureName = "English" },
+            new Culture(){ CultureName = "German" }
+        };
+        private static Product_Locale[] ProductLocale = {
+
+            new Product_Locale(){ProductId=1,CultureId=1,Name="Samsung S5", Price=2000, ImageUrl="1.jpg", Description="<p>güzel telefon</p>"},
+            new Product_Locale(){ProductId=1,CultureId=2,Name="Samsung S5", Price=3000, ImageUrl="2.jpg", Description="<p>güzel telefon</p>"},
+            new Product_Locale(){ProductId=1,CultureId=3,Name="Samsung S5", Price=4000, ImageUrl="3.jpg", Description="<p>güzel telefon</p>"},
+            new Product_Locale(){ProductId=2,CultureId=1,Name="Samsung S5", Price=5000, ImageUrl="4.jpg", Description="<p>güzel telefon</p>"},
+            new Product_Locale(){ProductId=3,CultureId=1,Name="Samsung S5", Price=6000, ImageUrl="5.jpg", Description="<p>güzel telefon</p>"},
+            new Product_Locale(){ProductId=4,CultureId=1,Name="Samsung S5", Price=7000, ImageUrl="6.jpg", Description="<p>güzel telefon</p>"}
+
+        };
         private static ProductCategory[] ProductCategory =
         {
             new ProductCategory() { Product= Products[0],Category= Categories[0]},

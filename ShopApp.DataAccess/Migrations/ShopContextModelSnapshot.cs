@@ -79,6 +79,8 @@ namespace ShopApp.DataAccess.Migrations
 
                     b.Property<string>("DisplayOrder");
 
+                    b.Property<string>("FullDescription");
+
                     b.HasKey("CultureId");
 
                     b.ToTable("Cultures");
@@ -154,15 +156,7 @@ namespace ShopApp.DataAccess.Migrations
                         .ValueGeneratedOnAdd()
                         .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-                    b.Property<string>("Description");
-
-                    b.Property<string>("FullDescription");
-
-                    b.Property<string>("ImageUrl");
-
-                    b.Property<string>("Name");
-
-                    b.Property<decimal?>("Price");
+                    b.Property<string>("DefaultName");
 
                     b.HasKey("Id");
 
@@ -180,6 +174,29 @@ namespace ShopApp.DataAccess.Migrations
                     b.HasIndex("ProductId");
 
                     b.ToTable("ProductCategory");
+                });
+
+            modelBuilder.Entity("ShopApp.Entities.Product_Locale", b =>
+                {
+                    b.Property<int>("ProductId");
+
+                    b.Property<int>("CultureId");
+
+                    b.Property<string>("Description");
+
+                    b.Property<string>("FullDescription");
+
+                    b.Property<string>("ImageUrl");
+
+                    b.Property<string>("Name");
+
+                    b.Property<decimal?>("Price");
+
+                    b.HasKey("ProductId", "CultureId");
+
+                    b.HasIndex("CultureId");
+
+                    b.ToTable("Product_Locale");
                 });
 
             modelBuilder.Entity("ShopApp.Entities.CartItem", b =>
@@ -217,6 +234,19 @@ namespace ShopApp.DataAccess.Migrations
 
                     b.HasOne("ShopApp.Entities.Product", "Product")
                         .WithMany("ProductCategories")
+                        .HasForeignKey("ProductId")
+                        .OnDelete(DeleteBehavior.Cascade);
+                });
+
+            modelBuilder.Entity("ShopApp.Entities.Product_Locale", b =>
+                {
+                    b.HasOne("ShopApp.Entities.Culture", "Cultures")
+                        .WithMany("ProductLocales")
+                        .HasForeignKey("CultureId")
+                        .OnDelete(DeleteBehavior.Cascade);
+
+                    b.HasOne("ShopApp.Entities.Product", "Product")
+                        .WithMany("ProductLocales")
                         .HasForeignKey("ProductId")
                         .OnDelete(DeleteBehavior.Cascade);
                 });

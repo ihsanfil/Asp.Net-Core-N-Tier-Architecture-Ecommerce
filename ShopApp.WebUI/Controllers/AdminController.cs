@@ -49,10 +49,10 @@ namespace ShopApp.WebUI.Controllers
             {
                 var entity = new Product()
                 {
-                    Name = model.Name,
-                    Price = model.Price,
-                    Description = model.Description,
-                    ImageUrl = model.ImageUrl
+                    //Name = model.Name,
+                    //Price = model.Price,
+                    //Description = model.Description,
+                    //ImageUrl = model.ImageUrl
                 };
                 if (_productService.Create(entity))
                 {
@@ -82,10 +82,10 @@ namespace ShopApp.WebUI.Controllers
             var model = new ProductModel()
             {
                 Id = entity.Id,
-                Name = entity.Name,
-                Price = entity.Price,
-                Description = entity.Description,
-                ImageUrl = entity.ImageUrl,
+                //Name = entity.Name,
+                //Price = entity.Price,
+                //Description = entity.Description,
+                //ImageUrl = entity.ImageUrl,
                 SelectedCategories = entity.ProductCategories.Select(i => i.Category).ToList()
             };
 
@@ -105,13 +105,13 @@ namespace ShopApp.WebUI.Controllers
                     return NotFound();
                 }
 
-                entity.Name = model.Name;
-                entity.Description = model.Description;
-                entity.Price = model.Price;
+                //entity.Name = model.Name;
+                //entity.Description = model.Description;
+                //entity.Price = model.Price;
 
                 if (file != null)
                 {
-                    entity.ImageUrl = file.FileName;
+                    //entity.ImageUrl = file.FileName;
 
                     var path = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot\\img", file.FileName);
                     using (var stream = new FileStream(path, FileMode.Create))

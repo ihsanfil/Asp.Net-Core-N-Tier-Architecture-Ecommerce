@@ -81,10 +81,10 @@ namespace ShopApp.DataAccess.Concrete.EfCore
 
                 if (product != null)
                 {
-                    product.Name = entity.Name;
-                    product.Description = entity.Description;
-                    product.ImageUrl = entity.ImageUrl;
-                    product.Price = entity.Price;
+                    //product.Name = entity.Name;
+                    //product.Description = entity.Description;
+                    //product.ImageUrl = entity.ImageUrl;
+                    //product.Price = entity.Price;
 
                     product.ProductCategories = categoryIds.Select(catid => new ProductCategory()
                     {
